@@ -25,10 +25,9 @@ def value_input(data,count):
 def search_number(data,value):
     result = 0
     print(data)
-    for i in data :
+    for value in data :
         if value == data[i]:
             print('there is ', value, ' in the string' )
-        i += 1
         result = 1
     if result == 0 :
         print('there is not ', value,'in the string')
